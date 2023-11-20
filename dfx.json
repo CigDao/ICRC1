@@ -1,0 +1,16 @@
+{
+    "version": 1,
+    "canisters": {
+        "icrc1": {
+            "type": "motoko",
+            "main": "src/ICRC1/Canisters/Token.mo"
+        }
+    },
+    "defaults": {
+        "build": {
+            "packtool": "mops sources",
+            "args": ""
+        }
+    }
+    
+}
